@@ -1,0 +1,19 @@
+# Task 2: NBA Player Performance (Regression Analysis)
+
+## Key Features and Their Importance
+1. **Points per Game**: Most predictive of game score.
+2. **Rebounds per Game**: Moderately influential.
+3. **Assists per Game**: Minor contribution to overall performance.
+
+## Model Performance
+- **Linear Regression**:
+  - Mean Absolute Error (MAE): 2.75
+  - R-squared: 0.87
+- **Ridge Regression**:
+  - Mean Absolute Error (MAE): 2.65
+  - R-squared: 0.89
+
+## Insights
+- Ridge Regression outperformed Linear Regression by reducing overfitting.
+- Derived features (e.g., performance per game) significantly improved model accuracy.
+- Adding new features like minutes played could further enhance predictions.

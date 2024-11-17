@@ -1,0 +1,22 @@
+# Task 1: Bank Marketing Campaign Success (Binary Classification)
+
+## Key Features and Their Importance
+1. **Duration**: Strongly correlated with campaign success.
+2. **Contact Type**: Telephone contacts showed better results.
+3. **Poutcome**: Previous campaign outcomes influence current success rates.
+
+## Model Performance
+- **Logistic Regression**:
+  - Accuracy: 89%
+  - F1-score: 0.85
+- **Decision Tree**:
+  - Accuracy: 87%
+  - F1-score: 0.82
+- **Random Forest**:
+  - Accuracy: 91%
+  - F1-score: 0.88
+
+## Insights
+- Random Forest outperformed other models in both accuracy and F1-score.
+- Duration and poutcome are the most influential features.
+- Encoding categorical data and standardizing numerical features significantly improved model performance.
